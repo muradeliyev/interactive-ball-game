@@ -51,7 +51,7 @@ class Vector {
 Vector.prototype.print = () => {
     console.log(this.x, this.y);
 }
-
+// creating Ball class
 class Ball {
     constructor() {
         this.pos = new Vector(30, 50);
